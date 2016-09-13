@@ -1,0 +1,23 @@
+{
+    "name": "geazi/interbits",
+    "description": "Sitema de CRUD para teste da Interbits",
+    "type": "interbits",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geazi Oliveira",
+            "email": "geazioliveira@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "
+        }
+    }
+}
