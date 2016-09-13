@@ -30,6 +30,7 @@ class InterbitsServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '../../../resources/views' => base_path('resources/views/geazi/interbits'),
+            __DIR__.'../../../database/migrations' => base_path('database/migrations'),
         ]);
     }
 }
