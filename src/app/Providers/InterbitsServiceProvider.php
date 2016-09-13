@@ -14,6 +14,7 @@ class InterbitsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__ . '../../../resources/views', 'interbits');
+        $this->loadMigrationsFrom(__DIR__.'../../../database/migrations');
     }
 
     /**
